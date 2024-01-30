@@ -28,5 +28,11 @@ blockchain = [
 
 # 👇👇👇 Your code HERE 👇👇👇
 
-puts b1="Ben's KelloggCoin balance is"
-puts blockchain [0] ["amount"] - blockchain [3] ["amount"] - blockchain [5] ["amount"] + blockchain [6] ["amount"]
+puts b1="Ben's KelloggCoin balance is" 
+puts blockchain [0] ["amount"] - blockchain [2] ["amount"] - blockchain [5] ["amount"] + blockchain [6] ["amount"]
+puts b1="Brian's KelloggCoin balance is" 
+puts blockchain [1] ["amount"] - blockchain [3] ["amount"]  
+puts b1="Evan's KelloggCoin balance is" 
+puts blockchain [2] ["amount"] - blockchain [4] ["amount"] + blockchain [7] ["amount"]  
+puts b1="Anthony's KelloggCoin balance is" 
+puts blockchain [3] ["amount"] + blockchain [4] ["amount"] + blockchain [5] ["amount"] - blockchain [6] ["amount"] - blockchain [7] ["amount"]
